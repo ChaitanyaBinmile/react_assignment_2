@@ -1,6 +1,5 @@
-import { TrendingcardComponent } from "../../components/CommonComponents/TrendingardComponent/TrendingcardComponent";
-import { TitleComponent } from "./TitleComponent/TitleComponent";
-import { WatchingcardComponent } from "../../components/WatchingcardComponent/Watchingcardcomponent";
+import { TrendingcardComponent, TitleComponent , WatchingcardComponent} from  './index'
+
 
 export const HomepageComponent:React.FC=()=>{
     return (

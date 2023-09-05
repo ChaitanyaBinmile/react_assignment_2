@@ -1,5 +1,4 @@
-import { movieList } from "../../utilities/constant/MovielistData"
-import { FavouritesComponent } from "../CommonComponents/FavouritesComponent/FavouritesComponent";
+import { movieList,FavouritesComponent } from "../index"
 
 
 export const WatchingcardComponent: React.FC = () => {

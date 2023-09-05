@@ -1,6 +1,5 @@
 
-import { HomepageComponent } from "../pages/HomepageComponent/HomepageComponent";
-import { DetailPageComponent } from "../pages/DetailPageComponent/DetailPageComponent";
+import { HomepageComponent,DetailPageComponent,TrendingPageComponent } from "./index";
 import { RouteType } from "../type";
 
 export const RouterPath:RouteType={
@@ -14,11 +13,11 @@ export const RouterPath:RouteType={
     },
     Trending:{
         path: "/Trending",
-        Component: DetailPageComponent
+        Component: TrendingPageComponent
     },
     Calender:{
         path: "/Calender",
-        Component: DetailPageComponent
+        Component: TrendingPageComponent
     }
 
 }

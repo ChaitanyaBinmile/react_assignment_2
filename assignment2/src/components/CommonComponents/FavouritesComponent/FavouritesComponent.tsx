@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { white,purple} from "../../../assets"// Update the path to your purple image
 import { favouriteType } from "./type";
+import { white,purple} from "../../../assets"
 
 
 

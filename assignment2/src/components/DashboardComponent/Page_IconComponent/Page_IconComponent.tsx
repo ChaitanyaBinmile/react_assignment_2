@@ -1,11 +1,9 @@
-import { calender, film, heart, trending_up } from "../../assets"
-import { Params } from "react-router-dom"
 import { NavLink } from "react-router-dom"
-import { DashBoardItem } from "../CommonComponents/DashboardItem/DashBoardItem"
+import { calender, film, heart, trending_up,DashBoardItem } from "../index"
 
 
 
-export function Page_IconComponent(){
+export const Page_IconComponent:React.FC=()=>{
     return (
         <div>
             <ul className="flex flex-col gap-[20px]">

@@ -1,7 +1,6 @@
-import { log_out, sliders } from "../../assets"
-import { DashBoardItem } from "../CommonComponents/DashboardItem/DashBoardItem"
+import { log_out, sliders,DashBoardItem } from "../index"
 
-export function Session_IconComponent(){
+export const Session_IconComponent:React.FC=()=>{
     return (
         <div>
             <ul className="flex flex-col gap-[20px]">

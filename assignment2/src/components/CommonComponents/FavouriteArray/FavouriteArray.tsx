@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { white, purple } from "../../../assets"; // Update the path to your purple image
+import { white, purple,MovieList } from "./index"; 
 import { FavouriteType } from "../FavouritesComponent/type";
-import { MovieList } from "../../../utilities/constant/MovielistData";
 import { MovieType } from "../../../type";
 
 interface ContextType {
@@ -18,6 +17,7 @@ export const FavouritesArray: React.FC<FavouriteType> = ({ like, size, id }) => 
   const [favourite, setFavourite] = useState<MovieType[]>(MovieList);
   const [liked, setLike] = useState(like);
 
+
   const toggleLike = (movieId: string) => {
     setLike((prevLiked) => !prevLiked);
 
@@ -31,7 +31,7 @@ export const FavouritesArray: React.FC<FavouriteType> = ({ like, size, id }) => 
 
 
       setFavourite(updatedFavourite);
-      console.log(favourite)
+     
     }
   };
 

@@ -1,8 +1,7 @@
-import { movie4, star } from "../../../assets"
-import { WatchbuttonComponent } from "../../WatchbuttonComponent/WatchbuttonComponent"
-import { FavouritesComponent } from "../FavouritesComponent/FavouritesComponent"
+import { movie4, star,WatchbuttonComponent,FavouritesComponent } from "./index"
 
-function MovieDetail() {
+
+export const MovieDetailComponent:React.FC=()=> {
   return (
     <div>
          <div className="flex flex-col mx-20 my-10 items-start gap-6 lg:flex-row lg:items-center  ">
@@ -36,4 +35,3 @@ function MovieDetail() {
   )
 }
 
-export default MovieDetail
