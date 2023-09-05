@@ -1,7 +1,6 @@
-import { message_circle, users } from "../../assets"
-import { DashBoardItem } from "../CommonComponents/DashboardItem/DashBoardItem"
+import { message_circle, users,DashBoardItem } from "../index"
 
-export function Social_IconComponent(){
+export const Social_IconComponent:React.FC=()=>{
     return (
         <div>
             <ul className="flex flex-col gap-[20px]">

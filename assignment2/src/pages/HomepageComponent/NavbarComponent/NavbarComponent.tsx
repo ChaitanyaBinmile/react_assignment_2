@@ -1,5 +1,4 @@
-import { NavbarMenuComponent } from "../../NavbarMenuComponent/NavbarMenuComponent"
-import { search,bell,avatar } from "../../../assets"
+import { NavbarMenuComponent, search,bell,avatar} from "./index"
 
 export const NavbarComponent:React.FC=()=>{
     return (

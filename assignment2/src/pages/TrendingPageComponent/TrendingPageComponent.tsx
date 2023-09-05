@@ -1,8 +1,8 @@
-import { NavbarComponent,MovieDetailComponent,FavouritecardComponent } from "./index"
+import { NavbarComponent,MovieDetailComponent,TrendingcardComponent } from "./index"
 
 
 
-export const DetailPageComponent: React.FC = () => {
+export const TrendingPageComponent: React.FC = () => {
 
    
 
@@ -11,7 +11,7 @@ export const DetailPageComponent: React.FC = () => {
             <div className="p-8">
             <NavbarComponent/>
             </div>
-            <FavouritecardComponent/>
+            <TrendingcardComponent/>
 
           <MovieDetailComponent/>
 

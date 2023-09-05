@@ -1,9 +1,6 @@
-import { FavouritesComponent } from "../../../components/CommonComponents/FavouritesComponent/FavouritesComponent"
-import { WatchbuttonComponent } from "../../../components/WatchbuttonComponent/WatchbuttonComponent"
-import { NavbarComponent } from "../../../components/CommonComponents/NavbarComponent/NavbarComponent"
+import { FavouritesComponent,WatchbuttonComponent,NavbarComponent} from "./index"
 
 
-// const {like} = useContext(LikeContext)
 export const TitleComponent:React.FC = () => {
 
     return (
