@@ -1,6 +1,6 @@
 import { Route,Routes } from 'react-router-dom'
 import './App.css'
-import { DashboardComponent } from './components/DashboardComponent/DashboardComponent'
+import { DashboardComponent } from './components/CommonComponents/DashboardComponent/DashboardComponent'
 import { HomepageComponent } from './pages/HomepageComponent/HomepageComponent'
 import { RouterPath } from './router/RouterPath'
 
