@@ -1,11 +1,11 @@
-import { message_circle, users,DashBoardItem } from "../index"
+import { Image,DashBoardItem } from "../index"
 
 export const Social_IconComponent:React.FC=()=>{
     return (
         <div>
             <ul className="flex flex-col gap-[20px]">
-                <DashBoardItem logo={users} text='Community'></DashBoardItem>
-                <DashBoardItem logo={message_circle} text='Social'></DashBoardItem>
+                <DashBoardItem logo={Image.USERS} text='Community'></DashBoardItem>
+                <DashBoardItem logo={Image.MESSAGE_CIRCLE} text='Social'></DashBoardItem>
             </ul>
             
 

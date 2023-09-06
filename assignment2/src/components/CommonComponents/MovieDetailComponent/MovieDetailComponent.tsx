@@ -1,15 +1,15 @@
-import { movie4, star,WatchbuttonComponent,FavouritesComponent } from "./index"
+import { Image,WatchbuttonComponent,FavouritesComponent } from "./index"
 
 
 export const MovieDetailComponent:React.FC=()=> {
   return (
     <div>
          <div className="flex flex-col mx-20 my-10 items-start gap-6 lg:flex-row lg:items-center  ">
-                <img  className="my-6 w-[380px] h-[380px]" src={movie4}/>
+                <img  className="my-6 w-[380px] h-[380px]" src={Image.MOVIE4}/>
                 <div className="flex flex-col text-white gap-4 items-start ">
                     <div className="flex items-center justify-between w-[40vw]  max-w-lg">
                     <h1 className= " font-bold text-[30px]">House of Wealth</h1>
-                    <img className=" h-6" src={star}/>
+                    <img className=" h-6" src={Image.STAR}/>
 
                     </div>
                     <div className="flex gap-10">

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import { calender, film, heart, trending_up,DashBoardItem } from "../index"
+import { Image,DashBoardItem} from "../index"
 
 
 
@@ -8,16 +8,16 @@ export const Page_IconComponent:React.FC=()=>{
         <div>
             <ul className="flex flex-col gap-[20px]">
                 <NavLink to='/Home' >
-                    <DashBoardItem logo={film} text='Home'></DashBoardItem>
+                    <DashBoardItem logo={Image.FILM} text='Home'></DashBoardItem>
                 </NavLink>
                 <NavLink to='/Favourite'>
-                    <DashBoardItem logo={heart} text='Favourites'></DashBoardItem>
+                    <DashBoardItem logo={Image.HEART} text='Favourites'></DashBoardItem>
                 </NavLink>
                 <NavLink to='/Trending'>
-                    <DashBoardItem logo={trending_up} text='Trending'></DashBoardItem>
+                    <DashBoardItem logo={Image.TRENDING_UP} text='Trending'></DashBoardItem>
                 </NavLink>
                 <NavLink to='/Calender'>
-                    <DashBoardItem logo={calender} text='Coming soon'></DashBoardItem>
+                    <DashBoardItem logo={Image.CALENDERS} text='Coming soon'></DashBoardItem>
                 </NavLink>
             </ul>
             

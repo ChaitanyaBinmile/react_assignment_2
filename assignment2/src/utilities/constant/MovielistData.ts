@@ -1,11 +1,11 @@
-import { movie1,movie2,movie3,movie4,movie5,movie6,movie7 } from "../../assets"
+import { Image} from "../../assets"
 import { MovieType } from "../../type"
 
 export const MovieList:MovieType[]=[
     {
         id:'1',
         name: 'TokyoTrain',
-        image: movie1,
+        image: Image.MOVIE1,
         year: '2022',
         genre: "Action Comedy",
         like: false
@@ -13,7 +13,7 @@ export const MovieList:MovieType[]=[
     {
         id:'2',
         name: 'Moonfall',
-        image: movie2,
+        image: Image.MOVIE2,
         year: '2022',
         genre: "Sci-fi",
         like: false
@@ -21,7 +21,7 @@ export const MovieList:MovieType[]=[
     {
         id:'3',
         name: 'LIfe in Paris',
-        image: movie3,
+        image: Image.MOVIE3,
         year: '2023',
         genre: "Documentory series",
         like: false
@@ -29,7 +29,7 @@ export const MovieList:MovieType[]=[
     {
         id:'4',
         name: 'House of Gucci',
-        image: movie4,
+        image: Image.MOVIE4,
         year: '2021',
         genre: "Drama",
         like: false
@@ -37,7 +37,7 @@ export const MovieList:MovieType[]=[
     {
         id:'5',
         name: 'TokyoTrain',
-        image: movie1,
+        image: Image.MOVIE1,
         year: '2022',
         genre: "Action Comedy",
         like: false
@@ -45,7 +45,7 @@ export const MovieList:MovieType[]=[
     {
         id:'6',
         name: 'Moonfall',
-        image: movie2,
+        image: Image.MOVIE2,
         year: '2022',
         genre: "Sci-fi",
         like: false
@@ -53,7 +53,7 @@ export const MovieList:MovieType[]=[
     {
         id:'7',
         name: 'LIfe in Paris',
-        image: movie3,
+        image: Image.MOVIE3,
         year: '2023',
         genre: "Documentory series",
         like: false
@@ -61,7 +61,7 @@ export const MovieList:MovieType[]=[
     {
         id:'8',
         name: 'House of Gucci',
-        image: movie4,
+        image: Image.MOVIE4,
         year: '2021',
         genre: "Drama",
         like: false
@@ -71,7 +71,7 @@ export const movieList:MovieType[]=[
         {
             id:'1',
             name: 'TokyoTrain',
-            image: movie5,
+            image: Image.MOVIE5,
             year: '2022',
             genre: "Action Comedy",
             like: false
@@ -79,7 +79,7 @@ export const movieList:MovieType[]=[
         {
             id:'2',
             name: 'Moonfall',
-            image: movie6,
+            image: Image.MOVIE6,
             year: '2022',
             genre: "Sci-fi",
             like: false
@@ -87,7 +87,7 @@ export const movieList:MovieType[]=[
         {
             id:'3',
             name: 'LIfe in Paris',
-            image: movie7,
+            image: Image.MOVIE7,
             year: '2023',
             genre: "Documentory series",
             like: false
@@ -95,7 +95,7 @@ export const movieList:MovieType[]=[
         {
             id:'4',
             name: 'TokyoTrain',
-            image: movie5,
+            image: Image.MOVIE5,
             year: '2022',
             genre: "Action Comedy",
             like: false
@@ -103,7 +103,7 @@ export const movieList:MovieType[]=[
         {
             id:'5',
             name: 'Moonfall',
-            image: movie6,
+            image: Image.MOVIE6,
             year: '2022',
             genre: "Sci-fi",
             like: false
@@ -111,7 +111,7 @@ export const movieList:MovieType[]=[
         {
             id:'6',
             name: 'LIfe in Paris',
-            image: movie7,
+            image: Image.MOVIE7,
             year: '2023',
             genre: "Documentory series",
             like: false
