@@ -1,4 +1,4 @@
-import { movieList,FavouritesComponent } from "../index"
+import { movieList,FavouritesComponent } from "../../index"
 
 
 export const WatchingcardComponent: React.FC = () => {
