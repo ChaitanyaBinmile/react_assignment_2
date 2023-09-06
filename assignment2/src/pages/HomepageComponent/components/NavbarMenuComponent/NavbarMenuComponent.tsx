@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from 'react-router-dom';
 
 
 export const NavbarMenuComponent:React.FC=()=>{
@@ -19,5 +19,5 @@ export const NavbarMenuComponent:React.FC=()=>{
                 <li className="hidden md:inline">Documentaries</li>
             </ul>
         </div>
-    )
-}
+    );
+};

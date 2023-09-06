@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'home':"url('/src/assets/Rectangle.png')",
+        'home':"url('/src/assets/icons/Rectangle.png')",
         'favorite':"linear-gradient(99deg, #FFF 3.36%, rgba(255, 255, 255, 0.00) 238.16%);"
       },
       boxShadow:{

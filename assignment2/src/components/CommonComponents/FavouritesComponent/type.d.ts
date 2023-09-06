@@ -1,4 +1,4 @@
-import { MovieType } from "../../../type"
+import { MovieType } from '../../../type';
 
 export type FavouriteType={
     like: boolean

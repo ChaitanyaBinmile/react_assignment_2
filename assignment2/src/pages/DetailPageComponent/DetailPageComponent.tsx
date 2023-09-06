@@ -1,4 +1,4 @@
-import { NavbarComponent,MovieDetailComponent,FavouritecardComponent } from "./index"
+import { NavbarComponent,MovieDetailComponent,FavouritecardComponent } from './index';
 
 
 
@@ -16,5 +16,5 @@ export const DetailPageComponent: React.FC = () => {
           <MovieDetailComponent/>
 
         </div>
-    )
-}
+    );
+};

@@ -1,28 +1,26 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 
-
-import { default as logo} from "./logo.png";
-import { default as film } from "./film.png";
-import { default as heart } from "./heart.png";
-import { default as log_out } from "./log-out.png";
-import { default as message_circle } from "./message-circle.png";
-import { default as sliders } from "./sliders.png";
-import { default as trending_up } from "./trending-up.png";
-import { default as users } from "./users.png";
-import { default as calender } from "./calendar.png";
-import { default as search } from "./search.png";
-import { default as bell } from "./bell.png";
-import { default as avatar } from "./Group98.png";
-import { default as white } from "./Frame9.png";
-import { default as purple } from "./Frame7.png";
-import { default as movie1 } from "./movie1.png";
-import { default as movie2 } from "./movie2.png";
-import { default as movie3} from "./movie3.png";
-import { default as movie4 } from "./movie4.png";
-import { default as movie5 } from "./movie5.png";
-import { default as movie6 } from "./movie6.png";
-import { default as movie7 } from "./movie7.png";
-import { default as star } from "./star.png";
+import { default as logo} from './icons/logo.png';
+import { default as film } from './icons/film.png';
+import { default as heart } from './icons/heart.png';
+import { default as log_out } from './icons/log-out.png';
+import { default as message_circle } from './icons/message-circle.png';
+import { default as sliders } from './icons/sliders.png';
+import { default as trending_up } from './icons/trending-up.png';
+import { default as users } from './icons/users.png';
+import { default as calender } from './icons/calendar.png';
+import { default as search } from './icons/search.png';
+import { default as bell } from './icons/bell.png';
+import { default as avatar } from './icons/Group98.png';
+import { default as white } from './icons/Frame9.png';
+import { default as purple } from './icons/Frame7.png';
+import { default as movie1 } from './icons/movie1.png';
+import { default as movie2 } from './icons/movie2.png';
+import { default as movie3} from './icons/movie3.png';
+import { default as movie4 } from './icons/movie4.png';
+import { default as movie5 } from './icons/movie5.png';
+import { default as movie6 } from './icons/movie6.png';
+import { default as movie7 } from './icons/movie7.png';
+import { default as star } from './icons/star.png';
 
 
 export const Image ={
@@ -49,4 +47,4 @@ export const Image ={
     FILM:film,
     LOGO:logo
     
-}
+};

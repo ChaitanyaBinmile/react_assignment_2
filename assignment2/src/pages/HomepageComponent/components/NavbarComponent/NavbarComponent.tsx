@@ -1,4 +1,4 @@
-import { NavbarMenuComponent, Image} from "./index"
+import { NavbarMenuComponent, Image} from './index';
 
 export const NavbarComponent:React.FC=()=>{
     return (
@@ -11,5 +11,5 @@ export const NavbarComponent:React.FC=()=>{
                 <img src={Image.AVATAR}/>
             </div>
         </div>
-    )
-}
+    );
+};

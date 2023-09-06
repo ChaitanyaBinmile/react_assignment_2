@@ -1,2 +1,2 @@
-export { NavbarMenuComponent } from "../NavbarMenuComponent/NavbarMenuComponent"
-export { Image } from "../../../../assets"
+export { NavbarMenuComponent } from '../NavbarMenuComponent/NavbarMenuComponent';
+export { Image } from '../../../../assets';

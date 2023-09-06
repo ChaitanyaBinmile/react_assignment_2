@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
-import { FavouritesArray, LikeContext} from "../FavouriteArray/FavouriteArray";
+import React, { useContext } from 'react';
+import { FavouritesArray, LikeContext} from '../FavouriteArray/FavouriteArray';
 
 
 
 
 export const FavouritecardComponent:React.FC = () => {
 
-    const {favArr} = useContext(LikeContext)
+    const {favArr} = useContext(LikeContext);
 
     const likedMovies = favArr.filter((movie) => movie.like === true);
   
@@ -25,7 +25,8 @@ export const FavouritecardComponent:React.FC = () => {
               <div className="absolute h-6 w-6 top-4 right-4" >
                 <FavouritesArray like={like} size='small' id={id} />
               </div>
-              <div className="absolute  flex-col bottom-0  w-[100%]  flex text-black p-5 backdrop-blur-[90px] bg-favorite opacity-70">
+              <div className="absolute  flex-col bottom-0  w-[100%]  flex text-black 
+              p-5 backdrop-blur-[90px] bg-favorite opacity-70">
                 <p className="font-semibold">{name}</p>
                 <p className="font-normal text-sm">{year} | {genre}</p>
               </div>

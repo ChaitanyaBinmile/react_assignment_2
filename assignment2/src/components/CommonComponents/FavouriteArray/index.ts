@@ -1,2 +1,2 @@
-export { Image } from "../../../assets"; // Update the path to your purple image
-export { MovieList } from "../../../utilities/constant/MovielistData";
+export { Image } from '../../../assets'; // Update the path to your purple image
+export { MovieList } from '../../../utilities/constant/MovielistData';

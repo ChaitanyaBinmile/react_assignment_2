@@ -1,4 +1,4 @@
-import { Image,WatchbuttonComponent,FavouritesComponent } from "./index"
+import { Image,WatchbuttonComponent,FavouritesComponent } from './index';
 
 
 export const MovieDetailComponent:React.FC=()=> {
@@ -32,6 +32,6 @@ export const MovieDetailComponent:React.FC=()=> {
                 </div>
            </div>
     </div>
-  )
-}
+  );
+};
 

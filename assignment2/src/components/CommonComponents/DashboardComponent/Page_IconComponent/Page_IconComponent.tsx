@@ -1,5 +1,6 @@
-import { NavLink } from "react-router-dom"
-import { Image,DashBoardItem} from "../index"
+ 
+import { NavLink } from 'react-router-dom';
+import { Image,DashBoardItem} from '../index';
 
 
 
@@ -23,5 +24,5 @@ export const Page_IconComponent:React.FC=()=>{
             
 
         </div>
-    )
-}
+    );
+};

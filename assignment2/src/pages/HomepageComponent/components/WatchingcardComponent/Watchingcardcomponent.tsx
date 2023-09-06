@@ -1,4 +1,6 @@
-import { movieList,FavouritesComponent } from "../../index"
+/* eslint-disable max-len */
+ 
+import { movieList,FavouritesComponent } from '../../index';
 
 
 export const WatchingcardComponent: React.FC = () => {

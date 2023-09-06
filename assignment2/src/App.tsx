@@ -1,8 +1,9 @@
-import { Route,Routes } from 'react-router-dom'
-import './App.css'
-import { DashboardComponent } from './components/CommonComponents/DashboardComponent/DashboardComponent'
-import { HomepageComponent } from './pages/HomepageComponent/HomepageComponent'
-import { RouterPath } from './router/RouterPath'
+ 
+import { Route,Routes } from 'react-router-dom';
+import './App.css';
+import { DashboardComponent } from './components/CommonComponents/DashboardComponent/DashboardComponent';
+import { HomepageComponent } from './pages/HomepageComponent/HomepageComponent';
+import { RouterPath } from './router/RouterPath';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       </Routes>
 
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Image,MovieList } from "./index"; 
-import { FavouriteType } from "../FavouritesComponent/type";
-import { MovieType } from "../../../type";
+import React, { useState } from 'react';
+import { Image,MovieList } from './index'; 
+import { FavouriteType } from '../FavouritesComponent/type';
+import { MovieType } from '../../../type';
 
 interface ContextType {
   favArr: MovieType[];
@@ -39,7 +39,7 @@ export const FavouritesArray: React.FC<FavouriteType> = ({ like, size, id }) => 
     <div>
       <LikeContext.Provider value={{ favArr: favourite }}>
         <button onClick={() => toggleLike(id)}>
-          <img className={size === "medium" ? "h-[45px]" : ""} src={liked ? Image.PURPLE : Image.WHITE  } />
+          <img className={size === 'medium' ? 'h-[45px]' : ''} src={liked ? Image.PURPLE : Image.WHITE  } />
         </button>
       </LikeContext.Provider>
     </div>

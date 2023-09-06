@@ -1,4 +1,5 @@
-import { Image,DashBoardItem } from "../index"
+ 
+import { Image,DashBoardItem } from '../index';
 
 export const Social_IconComponent:React.FC=()=>{
     return (
@@ -10,5 +11,5 @@ export const Social_IconComponent:React.FC=()=>{
             
 
         </div>
-    )
-}
+    );
+};

@@ -1,4 +1,4 @@
-import { FavouritesComponent,WatchbuttonComponent,NavbarComponent} from "./index"
+import { FavouritesComponent,WatchbuttonComponent,NavbarComponent} from './index';
 
 
 export const TitleComponent:React.FC = () => {
@@ -17,5 +17,5 @@ export const TitleComponent:React.FC = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};

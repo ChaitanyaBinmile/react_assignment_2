@@ -4,7 +4,7 @@ type RoutePath = {
 };
 
 export interface DashboardType{
-    logo: ReactPropTypes.FC
+    logo: string
     text: string
 }
 

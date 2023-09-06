@@ -1,4 +1,4 @@
-import { NavbarComponent,MovieDetailComponent,TrendingcardComponent } from "./index"
+import { NavbarComponent,MovieDetailComponent,TrendingcardComponent } from './index';
 
 
 
@@ -16,5 +16,5 @@ export const TrendingPageComponent: React.FC = () => {
           <MovieDetailComponent/>
 
         </div>
-    )
-}
+    );
+};

@@ -1,4 +1,5 @@
-import { DashboardType } from "../../../type"
+/* eslint-disable react/prop-types */
+import { DashboardType } from '../../../type';
 
 export const DashBoardItem: React.FC<DashboardType> = ({logo,text}) => {
     return(
@@ -8,5 +9,5 @@ export const DashBoardItem: React.FC<DashboardType> = ({logo,text}) => {
                 <p className="text-white text-sm">{text}</p>
             </li>
         </div>
-    )
-}
+    );
+};

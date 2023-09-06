@@ -1,4 +1,4 @@
-import { TrendingcardComponent, TitleComponent , WatchingcardComponent} from  './index'
+import { TrendingcardComponent, TitleComponent , WatchingcardComponent} from  './index';
 
 
 export const HomepageComponent:React.FC=()=>{
@@ -12,5 +12,5 @@ export const HomepageComponent:React.FC=()=>{
                 <WatchingcardComponent/>
             </div>
         </div>
-    )
-}
+    );
+};
