@@ -1,4 +1,4 @@
-import { IconComponent,Page_IconComponent,Session_IconComponent,Social_IconComponent } from './index';
+import { WatchIconComponent,Page_IconComponent,Session_IconComponent,Social_IconComponent } from './index';
 
 
 export const DashboardComponent:React.FC=()=>{
@@ -7,7 +7,7 @@ export const DashboardComponent:React.FC=()=>{
         p-[30px] w-[20vw] min-w-[200px] h-screen 
         justify-between shadow-drawerShadow sticky z-10 top-0 left-0 md:flex ">
            <div>
-            <IconComponent/>
+            <WatchIconComponent/>
            </div>
            <div>
             <Page_IconComponent/>

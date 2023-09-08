@@ -21,7 +21,7 @@ export const FavouritecardComponent:React.FC = () => {
 
           return (
             <div className="relative rounded-[20px] overflow-x-hidden" key={id} >
-              <img className="min-w-[230px]" src={image}/>
+              <img className="min-w-[230px] bg-gray-400" src={image}/>
               <div className="absolute h-6 w-6 top-4 right-4" >
                 <FavouritesArray like={like} size='small' id={id} />
               </div>
